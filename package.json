@@ -1,0 +1,31 @@
+{
+  "name": "@wooltrakey/meta-sticker-3d-sdk",
+  "version": "0.1.14",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./editor.css": "./editor.css"
+  },
+  "repository": {
+    "url": "https://github.com/wooltrakey/meta-sticker-3d-sdk",
+    "type": "git"
+  },
+  "keywords": [
+    "NFT",
+    "META STICKER"
+  ],
+  "author": {
+    "name": "wooltrakey"
+  },
+  "bugs": {
+    "url": "https://github.com/wooltrakey/meta-sticker-3d-sdk/issues"
+  },
+  "homepage": "https://github.com/wooltrakey/meta-sticker-3d-sdk#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
